@@ -40,10 +40,10 @@ Install MATLAB and the following toolboxes/support packages before running the a
 
 ## How It Works
 
-- BMI/BMR calculated from demographic inputs (Fig. 1). The BMI category drives the suggestion shown in the UI (Fig. 2a-2e).
-- Energy intake from the CNN recognizer (Fig. 4).
-- Energy expenditure from selected exercises and durations (Fig. 5).
-- Net calories displayed in the daily summary (Fig. 6). Negative values imply a weight-loss trend, and positive values imply a weight-gain trend.
+- BMI/BMR calculated from demographic inputs. The BMI category drives the suggestion shown in the UI.
+- Energy intake from the CNN recognizer.
+- Energy expenditure from selected exercises and durations.
+- Net calories displayed in the daily summary. Negative values imply a weight-loss trend, and positive values imply a weight-gain trend.
 
 <p align="center">
   <kbd>
