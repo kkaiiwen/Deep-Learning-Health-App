@@ -15,7 +15,7 @@ A Deep Learning-Driven Fitness and Nutrition Assessment Application developed in
 
 ### Current model scope
 
-The included GoogLeNet model is trained on a limited set of classes and can only accurately recognize the following items: toast, pizza, ham, steak, egg, milk, juice, and diet coke.
+The included GoogLeNet model **trainedGoogLeNet1.mat** is trained on a limited set of classes and can only accurately recognize the following items: toast, pizza, ham, steak, egg, milk, juice, and diet coke.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Install MATLAB and the following toolboxes/support packages before running the a
 
 ## Quick Start
 
-1. Download the **“DL Health App” folder**. For the app to function normally, **DO NOT** remove or rename any files in the folder, and ensure that all images are in **.jpg format**.
+1. Download the **“DL Health App” folder**. To ensure the app functions properly, **DO NOT** remove or rename any files within the folder, and make sure that all files are in the same folder with all images saved in **.jpg format**.
 2. In MATLAB, open the **.mlapp file** in the “DL Health App” folder.
 3. Ensure your webcam (or supported video device) is connected if you plan to use food recognition.
 4. Run the app:
