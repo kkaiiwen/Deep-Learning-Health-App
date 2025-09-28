@@ -29,8 +29,8 @@ Install MATLAB and the following toolboxes/support packages before running the a
 
 ## Quick Start
 
-1. Download the **“AI Health App” folder**. For the app to function normally, **DO NOT** remove or rename any files in the folder, and ensure that all images are in **.jpg format**.
-2. In MATLAB, open the **.mlapp file** in the “AI Health App” folder.
+1. Download the **“DL Health App” folder**. For the app to function normally, **DO NOT** remove or rename any files in the folder, and ensure that all images are in **.jpg format**.
+2. In MATLAB, open the **.mlapp file** in the “DL Health App” folder.
 3. Ensure your webcam (or supported video device) is connected if you plan to use food recognition.
 4. Run the app:
 - Enter name, gender, height, weight, age to view BMI/BMR, category, and suggestions.
