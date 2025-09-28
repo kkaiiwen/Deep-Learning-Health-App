@@ -6,12 +6,12 @@ A Deep Learning-Driven Fitness and Nutrition Assessment Application developed in
 
 ## Features
 
-- Profile & Metrics: Compute BMI and BMR from gender, height, weight, and age.
-- User Classification: Categorize users into five groups (underweight, normal, overweight, obesity, extreme obesity).
-- Energy Balance Insights: Provide tailored suggestions.
-- Food Recognition (GoogLeNet): Image-based logging for supported items.
-- Exercise Calculator: Pick an activity and duration to auto-estimate calories burned.
-- Summaries: End-of-day caloric balance to indicate weight-loss/weight-gain trend.
+- **Profile & Metrics:** Compute BMI and BMR from gender, height, weight, and age.
+- **User Classification:** Categorize users into five groups (underweight, normal, overweight, obesity, extreme obesity).
+- **Energy Balance Insights:** Provide tailored suggestions.
+- **Food Recognition (GoogLeNet):** Image-based logging for supported items.
+- **Exercise Calculator:** Pick an activity and duration to auto-estimate calories burned.
+- **Summaries:** End-of-day caloric balance to indicate weight-loss/weight-gain trend.
 
 ### Current model scope
 
@@ -59,10 +59,14 @@ During training, MATLAB’s training-progress window displays accuracy and loss 
 
 To use the script, simply update the dataset path in the code and run trainNet.mlx in MATLAB. The script will automatically manage data preparation, training, and saving of the trained model.
 
-Note: If you expand the training dataset with new classes, you must also update the calorie database in the main .mlapp file to keep it consistent with the retrained network.
+**Note:** If you expand the training dataset with new classes, you must also update the calorie database in the main .mlapp file to keep it consistent with the retrained network.
 
+## Disclaimer
 
+This application is for information and educational purposes only and is not medical advice. Consult a healthcare professional for personalized guidance.
 
+## Acknowledgements
 
+GoogLeNet architecture for image classification (via Deep Learning Toolbox model).
 
 
