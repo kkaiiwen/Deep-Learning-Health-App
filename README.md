@@ -15,7 +15,7 @@ A Deep Learning-Driven Fitness and Nutrition Assessment Application developed in
 
 ### Current model scope
 
-The included GoogLeNet model **trainedGoogLeNet1.mat** is trained on a limited set of classes and can only accurately recognize the following items: toast, pizza, ham, steak, egg, milk, juice, and diet coke.
+The included GoogLeNet model (**trainedGoogLeNet1.mat**) is trained on a limited set of classes and can only accurately recognize the following items: toast, pizza, ham, steak, egg, milk, juice, and diet coke.
 
 ## Requirements
 
