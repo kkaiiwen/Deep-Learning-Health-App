@@ -1,6 +1,5 @@
 # Deep-Learning-Health-App
 
-
 ## Description
 
 A Deep Learning-Driven Fitness and Nutrition Assessment Application developed in MATLAB. It estimates BMI and BMR from basic demographic data, classifies users into weight categories, and provides daily energy-balance insights by combining food intake and exercise expenditure. This app includes a computer vision module powered by GoogLeNet Convolutional Neural Network (CNN) to streamline meal logging and reduce manual input. Target users include anyone interested in weight and fitness management, from underweight to obese, who are seeking clear, accessible, and actionable daily feedback.
