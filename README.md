@@ -45,10 +45,47 @@ Install MATLAB and the following toolboxes/support packages before running the a
 - Energy expenditure from selected exercises and durations (Fig. 5).
 - Net calories displayed in the daily summary (Fig. 6). Negative values imply a weight-loss trend, and positive values imply a weight-gain trend.
 
+<p align="center">
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.1.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.2a.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.2b.png">
+  </kbd>
+</p>
 
+<p align="center">
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.2c.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.2d.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.2e.png">
+  </kbd>
+</p>
 
+<p align="center">
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.3.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.4.png">
+  </kbd>
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.5.png">
+  </kbd>
+</p>
 
-
+<p align="center">
+  <kbd>
+    <img width="200" src="https://github.com/kkaiiwen/Deep-Learning-Health-App/blob/main/Graphics/Fig.6.png">
+  </kbd>
+</p>
 
 ## Limitations
 
