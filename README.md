@@ -96,7 +96,7 @@ Actual nutritional values can vary by brand and portion size. Treat estimates as
 
 ## GoogLeNet Retrain
 
-The **trainNet.m file** retrains GoogLeNet for image classification using transfer learning. Images should be organized in folders where each folder name corresponds to a class label. The training and validation sets must use the same folder structure but contain different images. The script applies data augmentation, including random rotation, reflection, and scaling, to the training set to improve generalization. The final layers of GoogLeNet are replaced to match the number of classes, and the network is trained using stochastic gradient descent with momentum (SGDM). 
+The **trainNet.m file** retrains GoogLeNet for image classification using transfer learning. Images should be organized into folders where each folder name corresponds to a class label. The training and validation sets must use the same folder structure but contain different images. The script applies data augmentation, including random rotation, reflection, and scaling, to the training set to improve generalization. The final layers of GoogLeNet are replaced to match the number of classes, and the network is trained using stochastic gradient descent with momentum (SGDM). 
 
 During training, MATLAB’s training-progress window displays accuracy and loss curves for both the training and validation sets in real time. Once training is finished, the network is saved as **trainedGoogLeNet1.mat**, which can later be loaded for classification. 
 
