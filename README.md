@@ -9,7 +9,7 @@ A Deep Learning-Driven Fitness and Nutrition Assessment Application developed in
 - **Profile & Metrics:** Compute BMI and BMR from gender, height, weight, and age.
 - **User Classification:** Categorize users into five groups (underweight, normal, overweight, obesity, extreme obesity).
 - **Energy Balance Insights:** Provide tailored suggestions.
-- **Food Recognition (GoogLeNet):** Image-based logging for supported items.
+- **Food Recognition (GoogLeNet):** Vision-based logging for supported items.
 - **Exercise Calculator:** Pick an activity and duration to auto-estimate calories burned.
 - **Summaries:** End-of-day caloric balance to indicate weight-loss/weight-gain trend.
 
@@ -34,16 +34,17 @@ Install MATLAB and the following toolboxes/support packages before running the a
 3. Ensure your webcam (or supported video device) is connected if you plan to use food recognition.
 4. Run the app:
 - Enter name, gender, height, weight, age to view BMI/BMR, category, and suggestions.
-- Log food: Use the image-based recognizer for supported classes.
+- Log food: Use the vision-based recognition module for supported classes.
 - Log exercise: Select an exercise and input time to auto-calculate calories burned.
 - Review end-of-day net calories and insights.
 
 ## How It Works
 
-- BMI/BMR calculated from demographic inputs. The BMI category drives the suggestion shown in the UI.
-- Energy intake from the CNN recognizer.
-- Energy expenditure from selected exercises and durations.
-- Net calories displayed in the daily summary. Negative values imply a weight-loss trend, and positive values imply a weight-gain trend.
+- BMI/BMR calculated from demographic inputs.
+- BMI categories drive personalized suggestions shown in the UI.
+- Energy intake estimated from the CNN food recognition module.
+- Energy expenditure calculated from selected exercises and durations.
+- Net calories displayed in the daily summary. Negative values indicate a weight-loss trend, and positive values indicate a weight-gain trend.
 
 <p align="center">
   <kbd>
