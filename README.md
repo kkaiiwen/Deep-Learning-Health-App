@@ -96,11 +96,11 @@ Actual nutritional values can vary by brand and portion size. Treat estimates as
 
 ## GoogLeNet Retrain
 
-The **trainNet.mlx file** retrains GoogLeNet for image classification using transfer learning. It loads images from folders where each folder name is treated as a class label and applies data augmentation, including random rotation, reflection, and scaling, to prepare the dataset for training. The final layers of GoogLeNet are replaced to match the number of classes, and the network is trained using stochastic gradient descent with momentum (SGDM). 
+The **trainNet.m file** retrains GoogLeNet for image classification using transfer learning. It loads images from folders where each folder name is treated as a class label and applies data augmentation, including random rotation, reflection, and scaling, to prepare the dataset for training. The final layers of GoogLeNet are replaced to match the number of classes, and the network is trained using stochastic gradient descent with momentum (SGDM). 
 
 During training, MATLAB’s training-progress window displays accuracy and loss curves for both the training and validation sets in real time. Once training is finished, the network is saved as **trainedGoogLeNet1.mat**, which can later be loaded for classification. 
 
-To use the script, simply update the dataset path in the code and run **trainNet.mlx** in MATLAB. The script will automatically manage data preparation, training, and saving of the trained model.
+To use the script, simply update the dataset path in the code and run **trainNet.m** in MATLAB. The script will automatically manage data preparation, training, and saving of the trained model.
 
 **Note:** If you expand the training dataset with new classes, you must also update the calorie database in the main **.mlapp file** to keep it consistent with the retrained network.
 
