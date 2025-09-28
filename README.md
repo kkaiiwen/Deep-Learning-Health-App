@@ -31,7 +31,7 @@ Install MATLAB and the following toolboxes/support packages before running the a
 
 1. Download the **“DL Health App” folder**. To ensure the app functions properly, **DO NOT** remove or rename any files within the folder, and make sure that all files are in the same folder with all images saved in **.jpg format**.
 2. In MATLAB, open the **.mlapp file** in the “DL Health App” folder.
-3. Ensure your webcam (or supported video device) is connected if you plan to use food recognition.
+3. Ensure your webcam (or supported video device) is connected.
 4. Run the app:
 - Enter name, gender, height, weight, age to view BMI/BMR, category, and suggestions.
 - Log food: Use the vision-based recognition module for supported classes.
